@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <form class="flex flex-col w-1/2 gap-1 m-4" action="/register" method="post">
+
+        <label for="name" id="name"></label>
+        <input class="border-2 border-slate-800 rounded px-5 py-2" type="text" id="name" name="name" placeholder="Enter Name" required>
+
+        <label for="username" id="username"></label>
+        <input class="border-2 border-slate-800 rounded px-5 py-2" type="text" id="username" name="username" placeholder="Enter username" required>
+
+        <label for="phone" id="phone"></label>
+        <input class="border-2 border-slate-800 rounded px-5 py-2" type="number" id="phone" name="phone" placeholder="Enter phone" required>
+
+        <label for="email" id="id"></label>
+        <input class="border-2 border-slate-800 rounded px-5 py-2" type="email" id="email" name="email" placeholder="Enter email id" required>
+
+        <label for="address" id="id"></label>
+        <input class="border-2 border-slate-800 rounded px-5 py-2" type="text" id="address" name="address" placeholder="Enter address" required>
+
+        <label for="school" id="school"></label>
+        <input class="border-2 border-slate-800 rounded px-5 py-2" type="text" id="school" name="school" placeholder="Enter school name" required>
+
+        <label for="application" id="application"></label>
+        <input class="border-2 border-slate-800 rounded px-5 py-2" type="number" id="application" name="application" placeholder="Enter application number" required>
+
+        <label for="image" id="image"></label>
+        <input class="border-2 border-slate-800 rounded px-5 py-2" type="image" id="image" name="image" placeholder="attach passport size photo" required>
+
+        <label for="passsword" id="passsword"></label>
+        <input class="border-2 border-slate-800 rounded px-5 py-2" type="passsword" id="passsword" name="passsword" placeholder="Enter your passsword" required>
+
+        <input type="submit" class="border-2 border-slate-800 rounded px-5 py-2" value="register student">
+
+    </form>
+</body>
+</html>
